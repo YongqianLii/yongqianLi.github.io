@@ -32,8 +32,8 @@
       margin: 20px 0;
     }
     .photo img {
-      width: 120px;
-      height: 120px;
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
       object-fit: cover;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
