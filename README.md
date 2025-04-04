@@ -83,7 +83,7 @@
   </div>
 
   <div class="contact">
-    <p><strong>Address:</strong> Rue Martin V 9, 1200 Woluwe-Saint-Lambert</p>
+    <p><strong>Address:</strong> Rue Martin V 9, 1200 Woluwe-Saint-Lambert，Belgium </p>
     <p><strong>Phone:</strong> +32 0495 354 233</p>
     <p><strong>Email:</strong> <a href="mailto:yongqianleee@gmail.com">yongqianleee@gmail.com</a></p>
   </div>
