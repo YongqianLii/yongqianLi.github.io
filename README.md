@@ -5,36 +5,35 @@
   <title>Yongqian Li - CV</title>
   <style>
     body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width: 860px;
+      font-family: Arial, sans-serif;
+      max-width: 850px;
       margin: auto;
-      padding: 50px 30px;
-      background-color: #f5f7fa;
-      color: #2c3e50;
-      line-height: 1.7;
-      font-size: 20px;
+      padding: 40px;
+      background-color: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
     }
     h1 {
       text-align: center;
-      font-size: 42px;
-      margin-bottom: 10px;
-      color: #2c3e50;
+      font-size: 36px;
+      margin-bottom: 5px;
     }
     .subtitle {
       text-align: center;
-      font-size: 18px;
-      color: #7f8c8d;
+      font-size: 16px;
+      color: #777;
+      margin-top: 0;
       border-bottom: 2px solid #ddd;
       padding-bottom: 10px;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
     .photo {
       text-align: center;
       margin: 20px 0;
     }
     .photo img {
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
       object-fit: cover;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
@@ -42,71 +41,46 @@
     }
     .contact {
       text-align: center;
-      margin-bottom: 40px;
-      color: #555;
+      margin-bottom: 30px;
     }
     .contact p {
       margin: 5px;
     }
     .section {
-      margin-top: 40px;
-      padding: 30px;
-      background: #ffffff;
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-      margin-bottom: 40px;
+      margin-top: 35px;
     }
-    h2 {
-      color: #34495e;
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 10px;
-      margin-bottom: 20px;
-      font-size: 28px;
-      text-align: center;
+    .section h2, .section h3 {
+      color: #005288;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 4px;
     }
-    h3 {
-      font-size: 24px;
-      margin-top: 20px;
-      color: #34495e;
+    .section h3 {
+      margin-top: 25px;
     }
-    p {
-      text-align: justify;
+    .section p {
+      margin: 0 0 20px;
+    }
+    .section ol {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .section ol li {
       margin-bottom: 15px;
     }
-    ol, ul {
-      padding-left: 30px;
-      margin-bottom: 15px;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      padding: 20px;
+    .section ol li strong {
+      color: #0056b3;
+      font-size: 1.1em;
     }
     .gallery img {
-      width: calc(33% - 20px);
-      max-width: 300px;
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s;
-    }
-    .gallery img:hover {
-      transform: scale(1.05);
-    }
-    .visual-desc {
-      text-align: center;
-      font-style: italic;
-      color: #555;
-      margin-bottom: 20px;
+      width: 100%;
+      max-width: 700px;
+      margin: 20px 0;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
     }
     hr {
-      border: none;
+      border: 0;
       border-top: 1px solid #ccc;
-      margin: 30px 0;
+      margin: 40px 0;
     }
   </style>
 </head>
@@ -125,54 +99,59 @@
     <p><strong>Email:</strong> <a href="mailto:yongqianleee@gmail.com">yongqianleee@gmail.com</a></p>
   </div>
 
-  <div class="section" id="profile">
+  <!-- Profile Section -->
+  <div class="section">
     <h2>Profile</h2>
     <p>
       I am currently a second-year PhD candidate at the Faculty of Medicine, UCLouvain (Belgium), conducting research from January 2023 to March 2025. My focus lies in the fundamental mechanisms of infertility and the development of experimental models. This work has enabled me to build a strong foundation in independent research and acquire substantial technical and analytical skills, especially in the following four domains:
     </p>
-    
+  </div>
+
+  <hr>
+
+  <!-- Core Competencies Section -->
+  <div class="section">
     <h3>Core Competencies</h3>
     <ol>
       <li>
-        <strong>Experimental Design &amp; Molecular Techniques</strong>
-        <p>
-          I possess hands-on experience with a broad spectrum of molecular and histological methods, including PCR, hematoxylin–eosin (HE) staining, immunohistochemistry (IHC), immunofluorescence (IF), and TUNEL assays. I am capable of independently designing, optimizing, and executing full experimental workflows with high reproducibility. This allows me to generate reliable, interpretable biological data for mechanistic studies.
-        </p>
+        <strong>Experimental Design & Molecular Techniques</strong><br>
+        I possess hands-on experience with a broad spectrum of molecular and histological methods, including PCR, hematoxylin–eosin (HE) staining, immunohistochemistry (IHC), immunofluorescence (IF), and TUNEL assays. I am capable of independently designing, optimizing, and executing full experimental workflows with high reproducibility. This allows me to generate reliable, interpretable biological data for mechanistic studies.
       </li>
       <li>
-        <strong>Data Processing &amp; Scientific Visualization</strong>
-        <p>
-          I am proficient in using R and Python for data analysis, particularly in statistical modeling and bioinformatics. Additionally, I utilize tools such as GraphPad Prism, QuPath, and ImageJ to ensure clean and comprehensive data visualization. This enables efficient transformation of raw biological data into structured, publication-quality insights.
-        </p>
+        <strong>Data Processing & Scientific Visualization</strong><br>
+        I am proficient in using R and Python for data analysis, particularly in statistical modeling and bioinformatics. Additionally, I utilize tools such as GraphPad Prism, QuPath, and ImageJ to ensure clean and comprehensive data visualization. This enables efficient transformation of raw biological data into structured, publication-quality insights.
       </li>
       <li>
-        <strong>Animal Models &amp; Research Compliance</strong>
-        <p>
-          I am certified in Laboratory Animal Science by the official Belgian online course. My expertise includes murine reproductive procedures (e.g., hCG-induced ovulation, oocyte retrieval, and parthenogenetic activation) and rat model operations (e.g., anesthesia and aseptic surgery). This combination of technical skill and ethical compliance ensures precise, reproducible animal experiments.
-        </p>
+        <strong>Animal Models & Research Compliance</strong><br>
+        I am certified in Laboratory Animal Science by the official Belgian online course. My expertise includes murine reproductive procedures (e.g., hCG-induced ovulation, oocyte retrieval, and parthenogenetic activation) and rat model operations (e.g., anesthesia and aseptic surgery). This combination of technical skill and ethical compliance ensures precise, reproducible animal experiments.
       </li>
       <li>
-        <strong>Interdisciplinary Training &amp; Independent Project Leadership</strong>
-        <p>
-          Between 2020 and 2021, I received systematic training in bioinformatics and single-cell omics at Qianshuo Bio (Shanghai), which extended my capabilities into data-driven biology. From 2016 to 2019, I worked as a clinical assistant in reproductive medicine (Shanghai University of Traditional Chinese Medicine and Tongji University), where I independently led a rodent-based research project funded by a university innovation grant. I managed all phases of the project—from experimental design to surgical execution and data analysis—demonstrating autonomy, scientific rigor, and leadership.
-        </p>
+        <strong>Interdisciplinary Training & Independent Project Leadership</strong><br>
+        Between 2020 and 2021, I received systematic training in bioinformatics and single-cell omics at Qianshuo Bio (Shanghai), which extended my capabilities into data-driven biology. From 2016 to 2019, I worked as a clinical assistant in reproductive medicine (Shanghai University of Traditional Chinese Medicine and Tongji University), where I independently led a rodent-based research project funded by a university innovation grant. I managed all phases of the project—from experimental design to surgical execution and data analysis—demonstrating autonomy, scientific rigor, and leadership.
       </li>
     </ol>
-    
+  </div>
+
+  <hr>
+
+  <!-- Current Objective Section -->
+  <div class="section">
     <h3>Current Objective</h3>
     <p>
       My current research has encountered a significant challenge: key experimental outcomes diverge from clinical datasets derived from over 150 medical centers, and the project lacks sustainable funding. Therefore, I am actively seeking a new PhD opportunity within a team that offers strong scientific infrastructure, interdisciplinary collaboration, and long-term vision. My goal is to further expand my technical expertise and global perspective while contributing meaningfully to high-impact translational medical research.
     </p>
   </div>
 
-  <div class="section" id="visualization">
+  <hr>
+
+  <!-- Visualization Gallery Section -->
+  <div class="section">
     <h2>Visualization Gallery</h2>
-    <p class="visual-desc">Below are some data charts generated by R language programs:</p>
+    <p>Below are some data charts generated by R language programs:</p>
     <div class="gallery">
       <img src="PCA.png" alt="PCA Plot">
       <img src="Volcano_optimized.png" alt="Volcano Plot">
       <img src="ggalluvial.png" alt="Alluvial Plot">
-      <img src="heatmap.png" alt="Heatmap Plot">
     </div>
   </div>
 
