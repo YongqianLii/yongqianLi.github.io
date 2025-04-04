@@ -152,7 +152,7 @@
       <img src="PCA.png" alt="PCA Plot">
       <img src="Volcano_optimized.png" alt="Volcano Plot">
       <img src="ggalluvial.png" alt="Alluvial Plot">
-  <img src="heatmap_github.png" alt="Heatmap Plot" class="heatmap">
+      <img src="heatmap_nature.tiff" alt="Heatmap Plot">
     </div>
   </div>
 
