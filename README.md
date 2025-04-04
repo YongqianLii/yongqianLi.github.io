@@ -16,6 +16,16 @@
     h1 {
       text-align: center;
       font-size: 36px;
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 16px;
+      color: #777;
+      margin-top: 0;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
     }
     .photo {
       text-align: center;
@@ -26,7 +36,8 @@
       height: 160px;
       border-radius: 50%;
       object-fit: cover;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+      border: 4px solid white;
     }
     .contact {
       text-align: center;
@@ -54,9 +65,10 @@
 <body>
 
   <h1>Yongqian Li</h1>
+  <p class="subtitle">PhD Candidate | Infertility Research | Experimental Biology & Data Analysis</p>
 
   <div class="photo">
-    <img src="yongqian.li~photo.jpg" alt="Yongqian Li">
+    <img src="photo.jpg" alt="Yongqian Li">
   </div>
 
   <div class="contact">
