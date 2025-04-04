@@ -73,11 +73,11 @@
       text-align: justify;
       margin-bottom: 15px;
     }
-    ul {
+    ol, ul {
       padding-left: 30px;
       margin-bottom: 15px;
     }
-    ul li {
+    li {
       margin-bottom: 10px;
     }
     .gallery {
@@ -120,7 +120,7 @@
     <p><strong>Email:</strong> <a href="mailto:yongqianleee@gmail.com">yongqianleee@gmail.com</a></p>
   </div>
 
-  <div class="section">
+  <div class="section" id="profile">
     <h2>Profile</h2>
     <p>
       I am currently a second-year PhD candidate at the Faculty of Medicine, UCLouvain (Belgium), conducting research from January 2023 to March 2025. My focus lies in the fundamental mechanisms of infertility and the development of experimental models. This work has enabled me to build a strong foundation in independent research and acquire substantial technical and analytical skills, especially in the following four domains:
@@ -129,20 +129,28 @@
     <h3>Core Competencies</h3>
     <ol>
       <li>
-        <strong>Experimental Design & Molecular Techniques</strong><br>
-        I possess hands-on experience with a broad spectrum of molecular and histological methods, including PCR, hematoxylin–eosin (HE) staining, immunohistochemistry (IHC), immunofluorescence (IF), and TUNEL assays. I am capable of independently designing, optimizing, and executing full experimental workflows with high reproducibility. This allows me to generate reliable, interpretable biological data for mechanistic studies.
+        <strong>Experimental Design &amp; Molecular Techniques</strong>
+        <p>
+          I possess hands-on experience with a broad spectrum of molecular and histological methods, including PCR, hematoxylin–eosin (HE) staining, immunohistochemistry (IHC), immunofluorescence (IF), and TUNEL assays. I am capable of independently designing, optimizing, and executing full experimental workflows with high reproducibility. This allows me to generate reliable, interpretable biological data for mechanistic studies.
+        </p>
       </li>
       <li>
-        <strong>Data Processing & Scientific Visualization</strong><br>
-        I am proficient in using R and Python for data analysis, particularly in statistical modeling and bioinformatics. Additionally, I utilize tools such as GraphPad Prism, QuPath, and ImageJ to ensure clean and comprehensive data visualization. This enables efficient transformation of raw biological data into structured, publication-quality insights.
+        <strong>Data Processing &amp; Scientific Visualization</strong>
+        <p>
+          I am proficient in using R and Python for data analysis, particularly in statistical modeling and bioinformatics. Additionally, I utilize tools such as GraphPad Prism, QuPath, and ImageJ to ensure clean and comprehensive data visualization. This enables efficient transformation of raw biological data into structured, publication-quality insights.
+        </p>
       </li>
       <li>
-        <strong>Animal Models & Research Compliance</strong><br>
-        I am certified in Laboratory Animal Science by the official Belgian online course. My expertise includes murine reproductive procedures (e.g., hCG-induced ovulation, oocyte retrieval, and parthenogenetic activation) and rat model operations (e.g., anesthesia and aseptic surgery). This combination of technical skill and ethical compliance ensures precise, reproducible animal experiments.
+        <strong>Animal Models &amp; Research Compliance</strong>
+        <p>
+          I am certified in Laboratory Animal Science by the official Belgian online course. My expertise includes murine reproductive procedures (e.g., hCG-induced ovulation, oocyte retrieval, and parthenogenetic activation) and rat model operations (e.g., anesthesia and aseptic surgery). This combination of technical skill and ethical compliance ensures precise, reproducible animal experiments.
+        </p>
       </li>
       <li>
-        <strong>Interdisciplinary Training & Independent Project Leadership</strong><br>
-        Between 2020 and 2021, I received systematic training in bioinformatics and single-cell omics at Qianshuo Bio (Shanghai), which extended my capabilities into data-driven biology. From 2016 to 2019, I worked as a clinical assistant in reproductive medicine (Shanghai University of Traditional Chinese Medicine and Tongji University), where I independently led a rodent-based research project funded by a university innovation grant. I managed all phases of the project—from experimental design to surgical execution and data analysis—demonstrating autonomy, scientific rigor, and leadership.
+        <strong>Interdisciplinary Training &amp; Independent Project Leadership</strong>
+        <p>
+          Between 2020 and 2021, I received systematic training in bioinformatics and single-cell omics at Qianshuo Bio (Shanghai), which extended my capabilities into data-driven biology. From 2016 to 2019, I worked as a clinical assistant in reproductive medicine (Shanghai University of Traditional Chinese Medicine and Tongji University), where I independently led a rodent-based research project funded by a university innovation grant. I managed all phases of the project—from experimental design to surgical execution and data analysis—demonstrating autonomy, scientific rigor, and leadership.
+        </p>
       </li>
     </ol>
     
@@ -152,7 +160,7 @@
     </p>
   </div>
 
-  <div class="section">
+  <div class="section" id="visualization">
     <h2>Visualization Gallery</h2>
     <p class="visual-desc">Below are some data charts generated by R language programs:</p>
     <div class="gallery">
