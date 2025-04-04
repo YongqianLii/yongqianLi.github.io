@@ -152,12 +152,7 @@
       <img src="PCA.png" alt="PCA Plot">
       <img src="Volcano_optimized.png" alt="Volcano Plot">
       <img src="ggalluvial.png" alt="Alluvial Plot">
-   .heatmap {
-  width: 100%;
-  max-width: 1000px; /* 根据需要调整最大宽度 */
-  margin: 20px auto;
-  display: block;
-}
+  <img src="heatmap_github.png" alt="Heatmap Plot" class="heatmap">
     </div>
   </div>
 
