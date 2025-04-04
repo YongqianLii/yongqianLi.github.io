@@ -89,10 +89,66 @@
   </div>
 
   <div class="section">
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      color: #333;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid #ccc;
+      margin: 40px 0;
+    }
+    h2, h3 {
+      color: #222;
+    }
+    h2 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 1.4em;
+      margin-bottom: 15px;
+    }
+    p {
+      margin: 0 0 20px;
+    }
+    ol {
+      margin-left: 20px;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 20px;
+    }
+    li strong {
+      color: #0056b3;
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+  <!-- 第一部分：Profile -->
+  <section>
     <h2>Profile</h2>
     <p>
       I am currently a second-year PhD candidate at the Faculty of Medicine, UCLouvain (Belgium), conducting research from January 2023 to March 2025. My focus lies in the fundamental mechanisms of infertility and the development of experimental models. This work has enabled me to build a strong foundation in independent research and acquire substantial technical and analytical skills, especially in the following four domains:
     </p>
+  </section>
+  
+  <hr>
+  
+  <!-- 第二部分：Core Competencies -->
+  <section>
     <h3>Core Competencies</h3>
     <ol>
       <li>
@@ -112,10 +168,19 @@
         Between 2020 and 2021, I received systematic training in bioinformatics and single-cell omics at Qianshuo Bio (Shanghai), which extended my capabilities into data-driven biology. From 2016 to 2019, I worked as a clinical assistant in reproductive medicine (Shanghai University of Traditional Chinese Medicine and Tongji University), where I independently led a rodent-based research project funded by a university innovation grant. I managed all phases of the project—from experimental design to surgical execution and data analysis—demonstrating autonomy, scientific rigor, and leadership.
       </li>
     </ol>
+  </section>
+  
+  <hr>
+  
+  <!-- 第三部分：Current Objective -->
+  <section>
     <h3>Current Objective</h3>
     <p>
       My current research has encountered a significant challenge: key experimental outcomes diverge from clinical datasets derived from over 150 medical centers, and the project lacks sustainable funding. Therefore, I am actively seeking a new PhD opportunity within a team that offers strong scientific infrastructure, interdisciplinary collaboration, and long-term vision. My goal is to further expand my technical expertise and global perspective while contributing meaningfully to high-impact translational medical research.
     </p>
+  </section>
+</body>
+</html>
   </div>
 
   <div class="section">
