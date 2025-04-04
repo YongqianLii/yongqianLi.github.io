@@ -12,6 +12,7 @@
       background-color: #f5f7fa;
       color: #2c3e50;
       line-height: 1.7;
+      font-size: 18px;
     }
     h1 {
       text-align: center;
@@ -62,6 +63,9 @@
       border-radius: 4px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
+    ul {
+      padding-left: 20px;
+    }
   </style>
 </head>
 <body>
@@ -74,7 +78,7 @@
   </div>
 
   <div class="contact">
-    <p><strong>Address:</strong> Rue Martin V 9, 1200 Woluwe-Saint-Lambert</p>
+    <p><strong>Address:</strong> Rue Martin V 9, 1200 Woluwe-Saint-Lambert, Belgium</p>
     <p><strong>Phone:</strong> +32 0495 354 233</p>
     <p><strong>Email:</strong> <a href="mailto:yongqianleee@gmail.com">yongqianleee@gmail.com</a></p>
   </div>
@@ -82,21 +86,24 @@
   <div class="section">
     <h2>Profile</h2>
     <p>
-      I pursued a PhD (second-year) in the field of infertility at the UCLouvain University School of Medicine from January 2023 to March 2025, during which I developed solid experimental skills and data analysis capabilities. My core expertise includes:
+      I pursued a PhD (second-year) at the Faculty of Medicine, UCLouvain (Belgium) from January 2023 to March 2025, focusing on the fundamental mechanisms of infertility and the development of experimental models. During this period, I have cultivated strong independent research capabilities and developed substantial expertise in experimental techniques, data analysis, and animal model operations. My core strengths include:
     </p>
+
+    <h3>✅ Core Competencies</h3>
     <ul>
-      <li><strong>Experimental Techniques:</strong> Proficient in PCR, HE staining, immunohistochemistry, immunofluorescence, and TUNEL assays;</li>
-      <li><strong>Data Analysis:</strong> Utilizing R and Python for data processing, visualization, and bioinformatics analysis;</li>
-      <li><strong>Certification:</strong> Earned the Certificate of Completion for the Belgian Online Course on Laboratory Animal Science.</li>
+      <li><strong>Advanced Experimental Skills</strong><br>
+        Proficient in a wide range of molecular and histological techniques, including PCR, hematoxylin–eosin (HE) staining, immunohistochemistry (IHC), immunofluorescence (IF), and TUNEL assays. I am capable of independently designing and executing complex experimental workflows with high reproducibility and data consistency.</li>
+      <li><strong>Data Analysis & Visualization</strong><br>
+        Experienced in using R and Python for statistical analysis and bioinformatics. Skilled in integrating tools such as GraphPad Prism, QuPath, and ImageJ to complete the full pipeline—from data cleaning and modeling to visualization—enabling the extraction of actionable scientific insights from complex data.</li>
+      <li><strong>Certified & Competent in Animal Studies</strong><br>
+        Certified by the Belgian official online course in Laboratory Animal Science. I am well-versed in murine reproductive procedures such as hCG-induced ovulation, oocyte retrieval, and parthenogenetic activation, and have hands-on experience in anesthesia and aseptic surgical techniques for rat models.</li>
+      <li><strong>Interdisciplinary Background & Project Leadership</strong><br>
+        Between 2020 and 2021, I undertook systematic training in bioinformatics and single-cell omics at Qianshuo Bio (Shanghai), extending my skills into data-driven biology. From 2016 to 2019, I worked as a clinical assistant in reproductive medicine at Shanghai University of Traditional Chinese Medicine and Tongji University. I independently led a rodent research project funded by a university innovation grant, overseeing experimental design, surgical execution, and data interpretation—demonstrating strong project execution and cross-disciplinary communication skills.</li>
     </ul>
+
+    <h3>🎯 Current Goal</h3>
     <p>
-      From 2020 to 2022, I systematically studied the application of R and Python at Shanghai Qianshuo Bio and mastered single-cell omics analysis techniques. In addition, I gained proficiency in key mouse experimental procedures, including hCG-induced ovulation, egg collection, and parthenogenetic activation.
-    </p>
-    <p>
-      Between 2016 and 2019, I served as a clinical assistant for IVF patients at Shanghai University of Traditional Chinese Medicine and Tongji University, accumulating valuable clinical experience and participating in two rat research projects. In one project that I led, I successfully secured a university innovation fund and performed procedures such as general anesthesia and sterile surgical operations on over one hundred laboratory animals.
-    </p>
-    <p>
-      Given that my current research project shows significant discrepancies with human data from over 150 medical centers and lacks dedicated funding, I am actively seeking new PhD opportunities. I look forward to leveraging my expertise on a more promising platform to make a greater contribution to medical research and clinical translation.
+      Due to fundamental discrepancies between my current research objectives and clinical datasets from over 150 medical centers, combined with a lack of dedicated funding, I am actively seeking a new PhD opportunity. I aspire to join a research team with strong resources and long-term vision, where I can further expand my technical expertise, broaden my global perspective, and contribute meaningfully to translational medical research.
     </p>
   </div>
 
