@@ -1,59 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yongqian Li - CV</title>
   <style>
     body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width: 860px;
-      margin: auto;
-      padding: 50px 30px;
-      background-color: #f5f7fa;
-      color: #2c3e50;
-      line-height: 1.7;
-    }
-    h1 {
-      text-align: center;
-      font-size: 38px;
-      margin-bottom: 5px;
+      font-family: "Helvetica Neue", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fb;
       color: #2c3e50;
     }
-    .subtitle {
-      text-align: center;
-      font-size: 16px;
-      color: #7f8c8d;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 10px;
-      margin-bottom: 30px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
     }
-    .photo {
-      text-align: center;
-      margin: 20px 0;
+    .sidebar {
+      flex: 1;
+      min-width: 250px;
+      max-width: 300px;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
     }
-    .photo img {
+    .main {
+      flex: 2;
+      padding: 20px 30px;
+      background-color: #ffffff;
+      margin-left: 20px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    img.photo {
       width: 100px;
       height: 100px;
       border-radius: 50%;
       object-fit: cover;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-      border: 3px solid #ffffff;
-    }
-    .contact {
-      text-align: center;
-      margin-bottom: 30px;
-      color: #555;
+      display: block;
+      margin: 0 auto 20px;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     .contact p {
-      margin: 5px;
+      text-align: center;
+      font-size: 14px;
+      margin: 5px 0;
+      color: #555;
     }
-    .section {
-      margin-top: 40px;
+    h1 {
+      font-size: 32px;
+      margin-bottom: 5px;
     }
     h2 {
-      color: #34495e;
+      font-size: 20px;
+      color: #005288;
       border-bottom: 1px solid #ccc;
       padding-bottom: 5px;
+      margin-top: 40px;
+    }
+    .timeline {
+      position: relative;
+      margin: 30px 0;
+      padding-left: 20px;
+      border-left: 2px solid #ccc;
+    }
+    .timeline-item {
+      margin-bottom: 25px;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -9px;
+      top: 5px;
+      width: 12px;
+      height: 12px;
+      background-color: #005288;
+      border-radius: 50%;
     }
     .gallery img {
       width: 100%;
@@ -62,53 +88,58 @@
       border-radius: 4px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .main {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
   </style>
 </head>
 <body>
 
-  <h1>Yongqian Li</h1>
-  <p class="subtitle">PhD Candidate | Infertility Research | Experimental Biology & Data Analysis</p>
+  <div class="container">
+    <div class="sidebar">
+      <img src="photo.jpg" alt="Yongqian Li" class="photo" />
+      <div class="contact">
+        <p><strong>Yongqian Li</strong></p>
+        <p>Rue Martin V 9</p>
+        <p>1200 Woluwe-Saint-Lambert</p>
+        <p>+32 0495 354 233</p>
+        <p><a href="mailto:yongqianleee@gmail.com">yongqianleee@gmail.com</a></p>
+      </div>
+    </div>
 
-  <div class="photo">
-    <img src="photo.jpg" alt="Yongqian Li">
-  </div>
+    <div class="main">
+      <h1>Yongqian Li</h1>
+      <p>
+        I am a PhD candidate in infertility research at UCLouvain (2023–2025), with solid experimental skills and data analysis expertise. I specialize in translational medicine, and am currently seeking new PhD opportunities aligned with human clinical data and long-term funding support.
+      </p>
 
-  <div class="contact">
-    <p><strong>Address:</strong> Rue Martin V 9, 1200 Woluwe-Saint-Lambert</p>
-    <p><strong>Phone:</strong> +32 0495 354 233</p>
-    <p><strong>Email:</strong> <a href="mailto:yongqianleee@gmail.com">yongqianleee@gmail.com</a></p>
-  </div>
+      <h2>Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <strong>2023–2025:</strong> PhD in Infertility, UCLouvain — Developed expertise in PCR, HE staining, immunohistochemistry, immunofluorescence, TUNEL assays, and data analysis using R/Python.
+        </div>
+        <div class="timeline-item">
+          <strong>2020–2022:</strong> Shanghai Qianshuo Bio — Specialized in single-cell omics analysis; gained proficiency in hCG-induced ovulation, egg collection, and parthenogenetic activation.
+        </div>
+        <div class="timeline-item">
+          <strong>2016–2019:</strong> Clinical Assistant at Shanghai University & Tongji University — Gained IVF clinical experience, led two rat research projects involving anesthesia, sterile surgeries, and ovum collection.
+        </div>
+      </div>
 
-  <div class="section">
-    <h2>Profile</h2>
-    <p>
-      I pursued a PhD (second-year) in the field of infertility at the UCLouvain University School of Medicine from January 2023 to March 2025, during which I developed solid experimental skills and data analysis capabilities. My core expertise includes:
-    </p>
-    <ul>
-      <li><strong>Experimental Techniques:</strong> Proficient in PCR, HE staining, immunohistochemistry, immunofluorescence, and TUNEL assays;</li>
-      <li><strong>Data Analysis:</strong> Utilizing R and Python for data processing, visualization, and bioinformatics analysis;</li>
-      <li><strong>Certification:</strong> Earned the Certificate of Completion for the Belgian Online Course on Laboratory Animal Science.</li>
-    </ul>
-    <p>
-      From 2020 to 2022, I systematically studied the application of R and Python at Shanghai Qianshuo Bio and mastered single-cell omics analysis techniques. In addition, I gained proficiency in key mouse experimental procedures, including hCG-induced ovulation, egg collection, and parthenogenetic activation.
-    </p>
-    <p>
-      Between 2016 and 2019, I served as a clinical assistant for IVF patients at Shanghai University of Traditional Chinese Medicine and Tongji University, accumulating valuable clinical experience and participating in two rat research projects. In one project that I led, I successfully secured a university innovation fund and performed procedures such as general anesthesia and sterile surgical operations on over one hundred laboratory animals.
-    </p>
-    <p>
-      Given that my current research project shows significant discrepancies with human data from over 150 medical centers and lacks dedicated funding, I am actively seeking new PhD opportunities. I look forward to leveraging my expertise on a more promising platform to make a greater contribution to medical research and clinical translation.
-    </p>
-  </div>
-
-  <div class="section">
-    <h2>Visualization Gallery</h2>
-    <p>Here are some figures I created using R and Python during my research:</p>
-    <div class="gallery">
-      <img src="PCA.png" alt="PCA Plot">
-      <img src="Volcano_optimized.png" alt="Volcano Plot">
-      <img src="ggalluvial.png" alt="Alluvial Plot">
+      <h2>Visualization Gallery</h2>
+      <p>Figures created using R and Python:</p>
+      <div class="gallery">
+        <img src="PCA.png" alt="PCA Plot">
+        <img src="Volcano_optimized.png" alt="Volcano Plot">
+        <img src="ggalluvial.png" alt="Alluvial Plot">
+      </div>
     </div>
   </div>
-
 </body>
 </html>
