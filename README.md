@@ -5,24 +5,24 @@
   <title>Yongqian Li - CV</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 850px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 860px;
       margin: auto;
-      padding: 40px;
-      background-color: #fdfdfd;
-      color: #333;
-      line-height: 1.6;
+      padding: 50px 30px;
+      background-color: #f5f7fa;
+      color: #2c3e50;
+      line-height: 1.7;
     }
     h1 {
       text-align: center;
-      font-size: 36px;
+      font-size: 38px;
       margin-bottom: 5px;
+      color: #2c3e50;
     }
     .subtitle {
       text-align: center;
       font-size: 16px;
-      color: #777;
-      margin-top: 0;
+      color: #7f8c8d;
       border-bottom: 2px solid #ddd;
       padding-bottom: 10px;
       margin-bottom: 30px;
@@ -32,33 +32,35 @@
       margin: 20px 0;
     }
     .photo img {
-      width: 160px;
-      height: 160px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-      border: 4px solid white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+      border: 3px solid #ffffff;
     }
     .contact {
       text-align: center;
       margin-bottom: 30px;
+      color: #555;
     }
     .contact p {
       margin: 5px;
     }
     .section {
-      margin-top: 35px;
+      margin-top: 40px;
     }
     h2 {
-      color: #005288;
+      color: #34495e;
       border-bottom: 1px solid #ccc;
-      padding-bottom: 4px;
+      padding-bottom: 5px;
     }
     .gallery img {
       width: 100%;
-      max-width: 700px;
-      margin: 20px 0;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      max-width: 720px;
+      margin: 25px 0;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
   </style>
 </head>
