@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+# Yongqian Li – Online CV
+View my academic CV here: [https://yongqianli.github.io](https://yongqianli.github.io)
 <head>
   <meta charset="UTF-8">
   <title>Yongqian Li - CV</title>
