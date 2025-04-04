@@ -1,114 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Yongqian Li - CV</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yongqian Li - Professional CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <style>
     body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width: 860px;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fdfcf9;
+      color: #2d4a53;
+    }
+    header {
+      background: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      margin: 0;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #2d4a53;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #ff7755;
+    }
+    .container {
+      max-width: 1000px;
       margin: auto;
-      padding: 50px 30px;
-      background-color: #f5f7fa;
-      color: #2c3e50;
-      line-height: 1.7;
+      padding: 40px 20px;
     }
-    h1 {
-      text-align: center;
-      font-size: 38px;
-      margin-bottom: 5px;
-      color: #2c3e50;
-    }
-    .subtitle {
-      text-align: center;
-      font-size: 16px;
-      color: #7f8c8d;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 10px;
-      margin-bottom: 30px;
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
     }
     .photo {
-      text-align: center;
-      margin: 20px 0;
-    }
-    .photo img {
       width: 120px;
       height: 120px;
       border-radius: 50%;
       object-fit: cover;
+      border: 3px solid #fff;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-      border: 3px solid #ffffff;
+      display: block;
+      margin: 0 auto 20px;
     }
-    .contact {
+    .center {
       text-align: center;
-      margin-bottom: 30px;
-      color: #555;
-    }
-    .contact p {
-      margin: 5px;
-    }
-    .section {
-      margin-top: 40px;
     }
     h2 {
-      color: #34495e;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 5px;
+      font-size: 24px;
+      margin-top: 0;
+      position: relative;
+      padding-bottom: 8px;
+    }
+    h2::after {
+      content: '';
+      width: 50px;
+      height: 3px;
+      background: #ff7755;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .timeline {
+      border-left: 3px solid #77c1b2;
+      padding-left: 20px;
+    }
+    .timeline-item {
+      margin-bottom: 20px;
+    }
+    .timeline-item h4 {
+      margin: 0 0 5px;
+      color: #2e6c80;
     }
     .gallery img {
       width: 100%;
       max-width: 720px;
-      margin: 25px 0;
-      border-radius: 4px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.02);
+    }
+    .download-btn {
+      background: #ff7755;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 14px;
+      padding: 20px 0;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Yongqian Li</h1>
+    <nav>
+      <a href="#profile">Profile</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <h1>Yongqian Li</h1>
-  <p class="subtitle">PhD Candidate | Infertility Research | Experimental Biology & Data Analysis</p>
+  <div class="container">
+    <div class="card center" id="profile" data-aos="fade-up">
+      <img class="photo" src="photo.jpg" alt="Yongqian Li">
+      <h2>Profile</h2>
+      <p>PhD Candidate | Infertility Research | Experimental Biology & Data Analysis</p>
+      <p>I pursued a PhD (second-year) in the field of infertility at the UCLouvain University School of Medicine from January 2023 to March 2025...</p>
+      <a class="download-btn" href="cv_yongqianli.pdf" download>Download PDF CV</a>
+    </div>
 
-  <div class="photo">
-    <img src="photo.jpg" alt="Yongqian Li">
-  </div>
+    <div class="card" id="timeline" data-aos="fade-up">
+      <h2>Experience Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h4>2023–2025: PhD Candidate</h4>
+          <p>UCLouvain – Infertility Research and Experimental Biology</p>
+        </div>
+        <div class="timeline-item">
+          <h4>2020–2022: Bioinformatics Training</h4>
+          <p>Shanghai Qianshuo Bio – R, Python & Single-cell analysis</p>
+        </div>
+        <div class="timeline-item">
+          <h4>2016–2019: IVF Clinical Assistant</h4>
+          <p>Shanghai & Tongji Universities – Clinical + animal study projects</p>
+        </div>
+      </div>
+    </div>
 
-  <div class="contact">
-    <p><strong>Address:</strong> Rue Martin V 9, 1200 Woluwe-Saint-Lambert</p>
-    <p><strong>Phone:</strong> +32 0495 354 233</p>
-    <p><strong>Email:</strong> <a href="mailto:yongqianleee@gmail.com">yongqianleee@gmail.com</a></p>
-  </div>
+    <div class="card" id="gallery" data-aos="fade-up">
+      <h2>Visualization Gallery</h2>
+      <p>Figures generated using R and Python:</p>
+      <div class="gallery">
+        <img src="PCA.png" alt="PCA Plot">
+        <img src="Volcano_optimized.png" alt="Volcano Plot">
+        <img src="ggalluvial.png" alt="Alluvial Plot">
+      </div>
+    </div>
 
-  <div class="section">
-    <h2>Profile</h2>
-    <p>
-      I pursued a PhD (second-year) in the field of infertility at the UCLouvain University School of Medicine from January 2023 to March 2025, during which I developed solid experimental skills and data analysis capabilities. My core expertise includes:
-    </p>
-    <ul>
-      <li><strong>Experimental Techniques:</strong> Proficient in PCR, HE staining, immunohistochemistry, immunofluorescence, and TUNEL assays;</li>
-      <li><strong>Data Analysis:</strong> Utilizing R and Python for data processing, visualization, and bioinformatics analysis;</li>
-      <li><strong>Certification:</strong> Earned the Certificate of Completion for the Belgian Online Course on Laboratory Animal Science.</li>
-    </ul>
-    <p>
-      From 2020 to 2022, I systematically studied the application of R and Python at Shanghai Qianshuo Bio and mastered single-cell omics analysis techniques. In addition, I gained proficiency in key mouse experimental procedures, including hCG-induced ovulation, egg collection, and parthenogenetic activation.
-    </p>
-    <p>
-      Between 2016 and 2019, I served as a clinical assistant for IVF patients at Shanghai University of Traditional Chinese Medicine and Tongji University, accumulating valuable clinical experience and participating in two rat research projects. In one project that I led, I successfully secured a university innovation fund and performed procedures such as general anesthesia and sterile surgical operations on over one hundred laboratory animals.
-    </p>
-    <p>
-      Given that my current research project shows significant discrepancies with human data from over 150 medical centers and lacks dedicated funding, I am actively seeking new PhD opportunities. I look forward to leveraging my expertise on a more promising platform to make a greater contribution to medical research and clinical translation.
-    </p>
-  </div>
-
-  <div class="section">
-    <h2>Visualization Gallery</h2>
-    <p>Here are some figures I created using R and Python during my research:</p>
-    <div class="gallery">
-      <img src="PCA.png" alt="PCA Plot">
-      <img src="Volcano_optimized.png" alt="Volcano Plot">
-      <img src="ggalluvial.png" alt="Alluvial Plot">
+    <div class="card center" id="contact" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p><strong>Address:</strong> Rue Martin V 9, 1200 Woluwe-Saint-Lambert</p>
+      <p><strong>Phone:</strong> +32 0495 354 233</p>
+      <p><strong>Email:</strong> <a href="mailto:yongqianleee@gmail.com">yongqianleee@gmail.com</a></p>
     </div>
   </div>
 
+  <footer>
+    &copy; 2025 Yongqian Li – All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
