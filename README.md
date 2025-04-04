@@ -114,19 +114,19 @@
     <h3>Core Competencies</h3>
     <ol>
       <li>
-        <strong>Experimental Design & Molecular Techniques</strong><br>
+        <strong>Experimental Design &amp; Molecular Techniques</strong><br>
         I possess hands-on experience with a broad spectrum of molecular and histological methods, including PCR, hematoxylin–eosin (HE) staining, immunohistochemistry (IHC), immunofluorescence (IF), and TUNEL assays. I am capable of independently designing, optimizing, and executing full experimental workflows with high reproducibility. This allows me to generate reliable, interpretable biological data for mechanistic studies.
       </li>
       <li>
-        <strong>Data Processing & Scientific Visualization</strong><br>
+        <strong>Data Processing &amp; Scientific Visualization</strong><br>
         I am proficient in using R and Python for data analysis, particularly in statistical modeling and bioinformatics. Additionally, I utilize tools such as GraphPad Prism, QuPath, and ImageJ to ensure clean and comprehensive data visualization. This enables efficient transformation of raw biological data into structured, publication-quality insights.
       </li>
       <li>
-        <strong>Animal Models & Research Compliance</strong><br>
+        <strong>Animal Models &amp; Research Compliance</strong><br>
         I am certified in Laboratory Animal Science by the official Belgian online course. My expertise includes murine reproductive procedures (e.g., hCG-induced ovulation, oocyte retrieval, and parthenogenetic activation) and rat model operations (e.g., anesthesia and aseptic surgery). This combination of technical skill and ethical compliance ensures precise, reproducible animal experiments.
       </li>
       <li>
-        <strong>Interdisciplinary Training & Independent Project Leadership</strong><br>
+        <strong>Interdisciplinary Training &amp; Independent Project Leadership</strong><br>
         Between 2020 and 2021, I received systematic training in bioinformatics and single-cell omics at Qianshuo Bio (Shanghai), which extended my capabilities into data-driven biology. From 2016 to 2019, I worked as a clinical assistant in reproductive medicine (Shanghai University of Traditional Chinese Medicine and Tongji University), where I independently led a rodent-based research project funded by a university innovation grant. I managed all phases of the project—from experimental design to surgical execution and data analysis—demonstrating autonomy, scientific rigor, and leadership.
       </li>
     </ol>
@@ -152,6 +152,7 @@
       <img src="PCA.png" alt="PCA Plot">
       <img src="Volcano_optimized.png" alt="Volcano Plot">
       <img src="ggalluvial.png" alt="Alluvial Plot">
+      <img src="heatmap_github.png" alt="Heatmap Plot">
     </div>
   </div>
 
