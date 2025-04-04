@@ -32,13 +32,13 @@
       margin: 20px 0;
     }
     .photo img {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      object-fit: cover;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-      border: 4px solid white;
-    }
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border: 3px solid #ffffff;
+}
     .contact {
       text-align: center;
       margin-bottom: 30px;
